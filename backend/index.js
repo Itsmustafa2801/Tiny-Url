@@ -5,7 +5,7 @@ const fs = require('fs-extra');
 const path = require('path');
 
 const app = express();
-const IP = '192.168.31.101'; // Replace with your specific IP address
+const IP = ''; // Replace with your specific IP address
 const PORT = 5000;
 
 const dataDir = path.join(__dirname, 'data'); // Directory for user data
